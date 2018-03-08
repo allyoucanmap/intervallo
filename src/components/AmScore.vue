@@ -305,8 +305,7 @@
   import axios from 'axios';
   import { Chrome } from 'vue-color';
   import {lonToX, latToY, resolution, pseudo} from '../utils/PrjUtils';
-  const path = window.$_am_path || '';
-  const audioPath = path + '/audio/';
+  const audioPath = './audio/';
   const audioCtx = new AudioContext();
 
   const analyzer = audioCtx.createAnalyser();

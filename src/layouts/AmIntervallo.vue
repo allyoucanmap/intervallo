@@ -27,7 +27,7 @@ body {
   import components from "../utils/requires/getComponents.js";
   import axios from "axios";
   import {isObject} from "lodash";
-  const path = window.$_am_path || '';
+
   export default {
     components,
     data() {
@@ -42,7 +42,7 @@ body {
     methods: {
       $_am_load() {
         axios
-          .get(path + "/intervallo.json")
+          .get('./intervallo.json')
           .then(response => {
             try {
               const json = isObject(response.data) ? {...response.data} : JSON.parse(response.data);
