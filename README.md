@@ -1,11 +1,11 @@
-# [intervallo](http://allyoucanmap.github.io/intervallo)
+# [intervallo](https://allyoucanmap.github.io/intervallo/index.html)
 **audio map**
 
 ![_](./img/_.png)
 
 ![_](./img/editor.png)
 
-http://allyoucanmap.github.io/intervallo (desktop)
+[demo](https://allyoucanmap.github.io/intervallo/index.html) (desktop)
 
 ## how it works
 
